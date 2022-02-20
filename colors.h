@@ -7,7 +7,7 @@
    G - green            T - change tone
    Y - yellow           I - italic
    B - blue             U - underline
-   M - magenta
+   M - magenta          S - strikethrough
    C - cyan
    W - white
 */
@@ -36,6 +36,7 @@
 #define TST "\033[2m"
 #define TSI "\033[3m"
 #define TSU "\033[4m"
+#define TSS "\033[9m"
 // Reset color (RC) "\033[TS;TC;BCm"
 #define RC "\033[0;0;0m"
 // Usage: printf(TSB TCG BCR "Hello World!\n" RC);
