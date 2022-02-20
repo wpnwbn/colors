@@ -2,7 +2,7 @@
 #define __COLORS__H__
 
 /* Colors:              Styles:
-   N - black (night)    N - normal
+   K - blacK            N - normal
    R - red              B - bold
    G - green            T - change tone
    Y - yellow           I - italic
@@ -13,7 +13,7 @@
 */
 
 // Text colors (TC)
-#define TCN "\033[30m"
+#define TCK "\033[30m"
 #define TCR "\033[31m"
 #define TCG "\033[32m"
 #define TCY "\033[33m"
@@ -22,7 +22,7 @@
 #define TCC "\033[36m"
 #define TCW "\033[37m"
 // Background colors (BC)
-#define BCN "\033[40m"
+#define BCK "\033[40m"
 #define BCR "\033[41m"
 #define BCG "\033[42m"
 #define BCY "\033[43m"
