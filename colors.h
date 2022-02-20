@@ -36,8 +36,8 @@
 #define TST "\033[2m"
 #define TSI "\033[3m"
 #define TSU "\033[4m"
-// Reset color: normal style, white text color, black background
-#define RC "\033[0;37;0m"
+// Reset color (RC) "\033[TS;TC;BCm"
+#define RC "\033[0;0;0m"
 
 #endif
 
